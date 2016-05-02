@@ -27,7 +27,7 @@ module SmartAnswer
       # so this class could be extended so that it returns the personal allowance
       # you are entitled to based on your age and income.
 
-      def age_related_allowance(birth_date)
+      def age_related_allowance(birth_date, income = 0)
         if Date.today > AGE_VERSUS_DOB_CHANGEOVER_DATE
           if birth_date > HIGHER_ALLOWANCE_1_DOB
             personal_allowance

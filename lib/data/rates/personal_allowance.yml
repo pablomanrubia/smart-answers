@@ -1,28 +1,60 @@
 ---
 - start_date: 2013-04-06
   end_date: 2014-04-05
-  personal_allowance: 9440
-  higher_allowance_1: 10500
-  higher_allowance_2: 10660
-  income_limit_for_personal_allowances: 26100.0
+  personal_allowance:
+    maximum: 9440
+    minimum: 0
+    income_limit: 100000
+  higher_allowance_1:
+    maximum: 10500
+    minimum: 9440
+    income_limit: 26100
+  higher_allowance_2:
+    maximum: 10660
+    minimum: 9440
+    income_limit: 26100
 
 - start_date: 2014-04-06
   end_date: 2015-04-05
-  personal_allowance: 10000
-  higher_allowance_1: 10500
-  higher_allowance_2: 10660
-  income_limit_for_personal_allowances: 27000.0
+  personal_allowance:
+    maximum: 10000
+    minimum: 0
+    income_limit: 100000
+  higher_allowance_1:
+    maximum: 10500
+    minimum: 10000
+    income_limit: 27000
+  higher_allowance_2:
+    maximum: 10660
+    minimum: 10000
+    income_limit: 27000
 
 - start_date: 2015-04-06
   end_date: 2016-04-05
-  personal_allowance: 10600
-  higher_allowance_1: 10600
-  higher_allowance_2: 10660
-  income_limit_for_personal_allowances: 27700.0
+  personal_allowance:
+    maximum: 10600
+    minimum: 0
+    income_limit: 100000
+  higher_allowance_1:
+    maximum: 10600
+    minimum: 10600
+    income_limit: 27700
+  higher_allowance_2:
+    maximum: 10660
+    minimum: 10600
+    income_limit: 27700
 
 - start_date: 2016-04-06
   end_date: 2017-04-05
-  personal_allowance: 11000
-  higher_allowance_1: 11000
-  higher_allowance_2: 11000
-  income_limit_for_personal_allowances: 27700.0
+  personal_allowance:
+    maximum: 11000
+    minimum: 0
+    income_limit: 100000
+  higher_allowance_1:
+    maximum: 11000
+    minimum: 11000
+    income_limit: 27700
+  higher_allowance_2:
+    maximum: 11000
+    minimum: 11000
+    income_limit: 27700
